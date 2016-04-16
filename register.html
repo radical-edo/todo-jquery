@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>ToDo App</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <a id="goToLogin" href="./login.html"></a>
+  <div id="clock" class="clock">
+  </div>
+  <div class="form-container">
+    <form id="registerForm" class="register-form">
+      <h2>Rejestracja</h2>
+      <div class="input-container">
+        <label>Email</label>
+        <input type="text" name="email">
+      </div>
+      <div class="input-container">
+        <label for="password">Haslo</label>
+        <input type="text" name="password">
+        <div id="passwordStrength"></div>
+      </div>
+      <div class="input-container">
+        <label>Potwierdzenie hasla </label>
+        <input type="text" name="passwordConfirmation">
+      </div>
+
+      <button type="submit">
+        Zarejestruj
+      </button>
+      <div id="message"></div>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+  <script src="clock.js"></script>
+  <script src="helpers.js"></script>
+
+  <script src="register.js"></script>
+</body>
+
+</html>

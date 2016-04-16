@@ -1,0 +1,77 @@
+.form-container {
+  width: 500px;
+  height: 300px;
+  box-shadow: 1px 1px 5px 0 #454545;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: table;
+}
+
+.register-form {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.input-container {
+  margin: 10px;
+}
+
+.input-container label {
+  display: inline-block;
+  text-align: right;
+  clear: both;
+  width: 30%;
+  margin-right: 15px;
+  float: left;
+  vertical-align: middle;
+}
+
+.input-container input {
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+}
+
+.clock {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.create-tasks-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.create-tasks-container input {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasks-list-item {
+  margin: 10px auto;
+  width: 50%;
+  height: 30px;
+  box-shadow: 1px 1px 5px 0 #212121;
+  text-align: center;
+}
+
+.tasks-item-priority {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+
+}

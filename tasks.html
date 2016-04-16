@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>ToDo App</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="create-tasks-container">
+    <form id="toDoForm">
+      <input id="formTitle" type="text" name="title" />
+      <input id="formPriority" type="number" name="priority" value="1"/>
+      <button type="submit" style="display: none;"></button>
+    </form>
+  </div>
+  <div>
+    <ul id="taskList" class="tasks-list">
+    </ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+  <script src="helpers.js"></script>
+  <script src="tasks.js"></script>
+</body>
+
+</html>
